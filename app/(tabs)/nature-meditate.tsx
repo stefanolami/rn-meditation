@@ -28,13 +28,13 @@ const NatureMeditate = () => {
 						renderItem={({ item }) => (
 							<Pressable
 								onPress={() => console.log('pressed')}
-								className="h-48 my-3 overflow-hidden"
+								className="h-48 my-3 overflow-hidden rounded-xl"
 							>
 								<ImageBackground
 									///@ts-ignore
 									source={MEDITATION_IMAGES[item.id - 1]}
 									resizeMode="cover"
-									className="flex-1 rounded-lg justify-center"
+									className="flex-1 justify-center"
 								>
 									<LinearGradient
 										colors={[
