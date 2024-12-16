@@ -19,6 +19,7 @@ const GuidedAffirmationsGallery = ({
 			</View>
 			<View className="space-y-2">
 				<FlatList
+					className="p-2 rounded-lg bg-black/40"
 					data={previews}
 					showsHorizontalScrollIndicator={false}
 					keyExtractor={(item) => item.id.toString()}
